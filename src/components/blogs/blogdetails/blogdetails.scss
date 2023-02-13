@@ -1,0 +1,25 @@
+  .actions {
+      margin: 1rem 20%;
+      padding: 1rem;
+      background-color: rgb(165, 42, 42,0.5);
+      border-radius: 20px 5px 20px 5px;
+      box-shadow:  -2px 5px 3px navy;
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+      button{
+        padding: 1rem 1.5rem;
+        outline: none;
+        border: none;
+        border-radius: 12px;
+        &:nth-child(1):hover{
+            background-color: rgb(255, 0, 0,0.7);
+            color: white;
+           
+        }
+        &:nth-child(2):hover{
+            background-color: rgb(2, 127, 2,0.7);
+            color: white;
+        }
+      }
+  }
